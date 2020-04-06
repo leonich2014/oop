@@ -38,15 +38,7 @@ namespace WindowsFormsApp1
         {
             Bitmap bmp = new Bitmap(picture.Width, picture.Height);
             Graphics graph = Graphics.FromImage(bmp);
-            if (n == 1)
-            {
-                SolidBrush sld1 = new SolidBrush(Color.Red);
-                SolidBrush sld2 = new SolidBrush(Color.Orange);
-                graph.FillEllipse(sld1, 125, 125, 50, 50);
-                graph.FillEllipse(sld2, 275, 25, 50, 50);
-                graph.FillEllipse(sld1, 425, 125, 50, 50);
-                graph.FillEllipse(sld2, 595, 10, 50, 50);
-            }
+// добавляем окружность
             if (n == 2)
             {
                 SolidBrush sld1 = new SolidBrush(Color.Yellow);
